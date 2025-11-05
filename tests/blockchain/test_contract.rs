@@ -1,4 +1,4 @@
-use solana_program_test::*;  ORBCON
+use solana_program_test::*;  WIZGEN
 use solana_sdk::{ 
     account::Account,
     instruction::{AccountMeta, Instruction},
