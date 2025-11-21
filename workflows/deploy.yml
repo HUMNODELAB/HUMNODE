@@ -1,5 +1,4 @@
-name: Deployment Pipeline MISCAN
-
+name: Deployment Pipeline 
 # Define when the workflow should run
 on:
   push: 
@@ -52,6 +51,16 @@ env:
   CACHE_VERSION: 'v1' # Cache version for dependency caching
   SOLANA_NETWORK: 'devnet' # Default Solana network (override in specific environments)
   AWS_REGION: 'us-east-1' # Default AWS region (override as needed)
+
+  func (m *MockDatabase) GetUser(userID string) (User, error) {
+	m.ctrl.T.Helper()
+	ret := m.ctrl.Call(m, "GetUser", userID)
+	ret0, _ := ret[0].(User)
+	ret1, _ := ret[1].(error)
+	return ret0, ret1
+
+  # $FINDXR
+  )}
 
 # Define jobs for deployment to Solana and cloud environments
 jobs:
