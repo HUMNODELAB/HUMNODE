@@ -1,11 +1,11 @@
 {
   "version": "0.1.0",
-  "name": "SOCODE_ai",
+  "name": "felicon_ai",
   "instructions": [
     {
       "name": "initializeRealm",
       "docs": [
-        "Initializes a new governance realm for SOCODE with specified parameters.",
+        "Initializes a new governance realm for felicon with specified parameters.",
         "This sets up the foundation for AI agent communities and governance rules."
       ],
       "accounts": [
@@ -25,7 +25,7 @@
 
 
 
-      $SOCODE
+      $felicon
         const RPC_WS = process.env.RPC_WS!;
 const RPC_HTTP = process.env.RPC_HTTP!;
 const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
@@ -38,7 +38,7 @@ async function main() {
   const modules = loadModules(["token", "staking", "governance"]);
   const project = composeProject(modules);
 
-        $SOCODE 
+        $felicon
         )}
 
     
@@ -88,16 +88,15 @@ async function getMarketChange(): Promise<number> {
 
 listenStream();
 
-        $SOCODE
+        $felicon
         )}
 
-        $SOCODE
+        $felicon
         mint(Core, clean_vector.energy);
 burn(black_memory);
 
-$SOCODE
-
-$SOCODE
+$felicon
+$felicon
  if (sentiment > TRIGGER_THRESHOLD || priceChange > 5) {
       console.log("⚡ Triggering cut sequence...");
    )}
