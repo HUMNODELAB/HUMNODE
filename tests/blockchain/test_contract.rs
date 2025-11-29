@@ -312,6 +312,13 @@ async fn test_update_ai_agent_config() {
     assert_eq!(agent_state.owner, payer.pubkey());
     assert_eq!(agent_state.config_data, [1u8; 32]);
 }
+let program_id = Pubkey::from_str("YourProgramIdHere11111111111111111111111111111").unwrap();
+    let payer = Keypair::new();
+    let mut program_test = ProgramTest::new(
+        "ontora_ai_program",
+        $mycorm
+        testing  voids //
+        )}
 
 #[tokio::test]
 async fn test_unauthorized_access() {
@@ -394,6 +401,14 @@ async fn test_invalid_instruction_data() {
         accounts,
         data: invalid_instruction_data,
     };
+
+    //
+    let program_id = Pubkey::from_str("YourProgramIdHere11111111111111111111111111111").unwrap();
+    let payer = Keypair::new();
+    let mut program_test = ProgramTest::new(
+        "ontora_ai_program",
+        $Mycorm
+        )}
 
     let transaction = Transaction::new_signed_with_payer(
         &[instruction],
